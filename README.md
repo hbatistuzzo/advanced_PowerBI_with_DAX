@@ -29,16 +29,16 @@ O SQL Server disponibiliza amostras de datasets para exercícios didáticos [nes
 
 ---
 
-<table style="width: 100%; table-layout: fixed;">
-  <tr>
-    <td style="width: 50%; padding-right: 10px; vertical-align: top;">
-      <em>Wide World Importers (WWI) é uma importadora e distribuidora atacadista de artigos de novidades, operando a partir da área da baía de São Francisco. Como atacadista, os clientes da WWI são principalmente empresas que revendem para indivíduos.
-    </td>
-    <td style="width: 50%; text-align: center;">
-      <img src="media/wwi.png" alt="Wide World Importers Logo" style="max-width: 100%; height: auto; border-radius: 5px;" />
-    </td>
-  </tr>
-</table>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: left;">
+  <div style="flex: 1; min-width: 300px; padding-right: 10px;">
+    <p>
+      <em>Wide World Importers (WWI) é uma importadora e distribuidora atacadista de artigos de novidades, operando a partir da área da baía de São Francisco. Como atacadista, os clientes da WWI são principalmente empresas que revendem para indivíduos.</em>
+    </p>
+  </div>
+  <div style="flex: 1; min-width: 300px; text-align: right;">
+    <img src="media/wwi.png" alt="Wide World Importers Logo" style="max-width: 100%; height: auto; border-radius: 5px;" />
+  </div>
+</div>
 
 
 _A WWI vende para clientes de varejo em todos os Estados Unidos, incluindo lojas especializadas, supermercados, lojas de informática, lojas de atrações turísticas e alguns indivíduos. A WWI também vende para outros atacadistas por meio de uma rede de agentes que promovem os produtos em nome da empresa. Embora todos os clientes da WWI estejam atualmente baseados nos Estados Unidos, a empresa pretende expandir-se para outros países/regiões._
